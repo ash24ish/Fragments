@@ -1,0 +1,11 @@
+This project to practice how FragmentContainerView is used.
+MainActivity has FragmentContainerView which populates 2 fragments ActiveFragment and InactiveFragment.
+OnClick of button inactive fragment shows, active fragment is already instantiated.
+Both ActiveFragment and InactiveFragment got same recyclerview rv_list_item.
+
+TabActivity2 is a custom tab activity using FragmentContainerView.
+onClick of tabs fragments are switched.
+It doesn't save the state of the recyclerview. scroll state.
+
+TabActivity3 is ready made tab activity which uses viewPager & viewmodel.
+It saves the state of the recyclerview. scroll state.
